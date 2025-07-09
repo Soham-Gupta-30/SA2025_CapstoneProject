@@ -22,7 +22,9 @@ ________________________________________
 3. Pricing Models
  Model 1: Occupancy-Based Pricing
       •	Computes price using:
+   
             Price = BasePrice + α × (Occupancy / Capacity)
+   
       •	Simple and reactive — prices increase as the lot fills up.
       • No other external features are considered.
     Key Assumptions: 
@@ -31,9 +33,13 @@ ________________________________________
 
  4. Model 2: Demand-Based Pricing
       •	Calculates a weighted demand score using:
+    
             Demand = α × (Occupancy/Capacity) + β × QueueLength - γ × TrafficScore  + δ × IsSpecialDay + ε × VehicleWeight
+    
       This raw demand is then normalized and mapped into price using:
-            Price = BasePrice × (1 + λ × NormalizedDemand), bounded between ₹10 and ₹15.
+    
+            Price = BasePrice × (1 + λ × NormalizedDemand), bounded between ₹10 and ₹15
+    
     Key Assumptions:
       •	Base price is ₹10.0.
       •	Normalized demand range is mapped from raw values between -5 and 15.
