@@ -57,7 +57,22 @@ ________________________________________
       o	Each lot’s price behavior individually
     This visualization helps explain the pricing logic to non-technical stakeholders.
 ________________________________________
-<pre> ```mermaid flowchart TD A["📁 dataset.csv<br>(Parking Data)"] --> B["🧠 Pathway Pipeline"] subgraph Pathway Logic B --> C["📊 Model 1<br>Occupancy-Based"] B --> D["🧮 Model 2<br>Demand-Based"] end C --> E["📄 output_model1.csv"] D --> F["📄 output_model2.csv"] E --> G["📈 Bokeh Plots<br>Per Parking Lot"] F --> G ``` </pre>
+flowchart TD
+    A["`📁 dataset.csv
+(Parking Data)`"] --> B["`🧠 Pathway Pipeline`"]
     
+    subgraph Pathway Logic
+        B --> C["`📊 Model 1
+Occupancy-Based`"]
+        B --> D["`🧮 Model 2
+Demand-Based`"]
+    end
+
+    C --> E["`📄 output_model1.csv`"]
+    D --> F["`📄 output_model2.csv`"]
+
+    E --> G["`📈 Bokeh Plots
+Per Parking Lot`"]
+    F --> G
 
 
