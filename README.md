@@ -28,7 +28,7 @@ ________________________________________
     Key Assumptions: 
       • Base price is ₹10.0, and α (slope) is set to 3.0.
 ________________________________________
- Model 2: Demand-Based Pricing
+  Model 2: Demand-Based Pricing
       •	Calculates a weighted demand score using:
             Demand = α × (Occupancy/Capacity) + β × QueueLength - γ × TrafficScore  + δ × IsSpecialDay + ε × VehicleWeight
       This raw demand is then normalized and mapped into price using:
