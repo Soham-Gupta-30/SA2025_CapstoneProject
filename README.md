@@ -7,8 +7,6 @@ Both models are built using Pathway, a stream-processing framework, and visualiz
 Detailed Project Architecture & Workflow
 1. Data Ingestion
   •	The project starts with a dataset (dataset.csv) containing real-world parking lot usage data including fields like occupancy, capacity, timestamp, traffic  level, and vehicle type.
-
-  •	This data is streamed in static mode (batch CSV) for testing.
 ________________________________________
 2. Pathway Data Pipeline
 All transformations are handled using the Pathway framework.
