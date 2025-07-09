@@ -13,17 +13,17 @@ ________________________________________
 2. Pathway Data Pipeline
 All transformations are handled using the Pathway framework.
 
-•	The dataset is ingested as a table with a defined schema.
+ •	The dataset is ingested as a table with a defined schema.
 
-•	Each row is enhanced with parsed timestamps and additional derived features like:
+ •	Each row is enhanced with parsed timestamps and additional derived features like:
 
-o	Hour of the day
+   o	Hour of the day
 
-o	Peak hour flag
+   o	Peak hour flag
 
-o	Traffic condition score
+   o	Traffic condition score
 
-o	Vehicle weight mapping
+   o	Vehicle weight mapping
 
 This unified pipeline is the core of our processing logic.
 ________________________________________
@@ -79,16 +79,16 @@ ________________________________________
 ________________________________________
 
 📊 6. Visualization with Bokeh
-   •	For each parking lot, Bokeh is used to create:
+  •	For each parking lot, Bokeh is used to create:
    
-      A line + scatter plot of price vs time
+   A line + scatter plot of price vs time
       
-      Interactive hover tool for inspection
-   •	We can compare:
+   Interactive hover tool for inspection
+  •	We can compare:
    
-      o	Model 1 vs Model 2 on a shared axis
+   o	Model 1 vs Model 2 on a shared axis
       
-      o	Each lot’s price behavior individually
+   o	Each lot’s price behavior individually
       
     This visualization helps explain the pricing logic to non-technical stakeholders.
 ________________________________________
