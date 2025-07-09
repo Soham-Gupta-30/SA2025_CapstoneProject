@@ -57,9 +57,9 @@ ________________________________________
     
       •	Base price is ₹10.0.
     
-      •	Normalized demand range is mapped from raw values between -5 and 15.
+      •	Normalized demand range is mapped from raw values between 0 and 10.
     
-      •	Final price is clipped to stay within ₹10–₹15 for fairness and smoothness.
+      •	Final price is clipped to stay within ₹9–₹15 for fairness and smoothness.
     
       •	Demand function components are weighted using domain-tuned coefficients.
 ________________________________________
