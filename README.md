@@ -29,7 +29,7 @@ ________________________________________
       • Base price is ₹10.0, and α (slope) is set to 3.0.
 ________________________________________
 
- Model 2: Demand-Based Pricing
+ 4. Model 2: Demand-Based Pricing
       •	Calculates a weighted demand score using:
             Demand = α × (Occupancy/Capacity) + β × QueueLength - γ × TrafficScore  + δ × IsSpecialDay + ε × VehicleWeight
       This raw demand is then normalized and mapped into price using:
@@ -40,7 +40,7 @@ ________________________________________
       •	Final price is clipped to stay within ₹10–₹15 for fairness and smoothness.
       •	Demand function components are weighted using domain-tuned coefficients.
 ________________________________________
-4. Output Generation
+5. Output Generation
    •	Model outputs are saved to CSV:
       o	output_model1.csv for Model 1
       o	output_model2.csv for Model 2
@@ -50,7 +50,7 @@ ________________________________________
       o	Final calculated price
 ________________________________________
 
-📊 5. Visualization with Bokeh
+📊 6. Visualization with Bokeh
    •	For each parking lot, Bokeh is used to create:
       o	A line + scatter plot of price vs time
       o	Interactive hover tool for inspection
