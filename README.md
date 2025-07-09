@@ -49,7 +49,7 @@ ________________________________________
     
       This raw demand is then normalized and mapped into price using:
     
-            Price = BasePrice × (1 + λ × NormalizedDemand), bounded between ₹10 and ₹15
+            Price = BasePrice × (1 + λ × NormalizedDemand), bounded between ₹9 and ₹15
     
     Key Assumptions:
     
