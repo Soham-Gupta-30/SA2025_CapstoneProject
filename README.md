@@ -90,7 +90,7 @@ ________________________________________
       
    o	Each lot’s price behavior individually
       
-    This visualization helps explain the pricing logic to non-technical stakeholders.
+   This visualization helps explain the pricing logic to non-technical stakeholders.
 ________________________________________
 
 
