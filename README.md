@@ -10,7 +10,9 @@ Detailed Project Architecture & Workflow
 ________________________________________
 2. Pathway Data Pipeline
 All transformations are handled using the Pathway framework.
+
 •	The dataset is ingested as a table with a defined schema.
+
 •	Each row is enhanced with parsed timestamps and additional derived features like:
 o	Hour of the day
 o	Peak hour flag
